@@ -1,0 +1,26 @@
+/*背景色*/
+.bg_color {
+    background-color: rgba(12, 12, 12, .3);
+}
+
+.show_list {
+    display: block;
+}
+
+/*全部背景图片*/
+.bg_img img {
+    background-image: url("../image/qing.jpg");
+}
+
+.bg_img1 img {
+    background-image: url("../image/hai.jpeg");
+}
+
+.bg_img2 img {
+    background-image: url("../image/huoying.jpg");
+}
+
+.bg_img3 img {
+    background-image: url("../image/bg_img.jpg");
+
+}

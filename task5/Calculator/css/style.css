@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	
+	width: 250px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 30px;
+	position: relative;
+}
+
+.keyboard{
+	width: 250px;
+	height: 220px;
+	margin-top: 30px;
+	padding-left: 10px;
+	box-sizing: border-box;
+
+}
+
+
+#expression{
+	height: 30px;
+	width: 250px;
+	border: #E3E3E3 solid 1px ;
+	border-radius: 5px;
+
+}
+
+#expression:hover,
+#expression:focus,
+#result:hover,
+#result:focus,
+#clear:hover,
+#clear:focus,
+#result:hover+#clear,
+#result:focus+#clear{
+	box-shadow:0px 0px 5px #888888;}
+
+#result{
+
+	height: 30px;
+	width: 250px;
+	margin-top: 8px;
+	border: #E3E3E3 solid 1px;
+	border-radius: 5px;
+}
+
+/*
+#clear{
+	display:block;
+	width: 40px;
+	height: 32px;
+	background-color: #CDCDCD;
+	position: absolute;
+	top:40px;
+	left:211px;
+	font-size: 1em;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 0px 5px 5px 0px;
+}*/
+li{
+	list-style: none;
+	display: block;
+	width: 50px;
+	height: 40px;
+	background-color:#E0E0E0;
+	text-align: center;
+	line-height: 40px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	float: left;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+li:hover{
+	background-color: #ACACAC;
+}
+li:active{
+	background-color: red;
+}
+

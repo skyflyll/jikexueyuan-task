@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+.nav a:hover .arrow_icon{
+	border-color: #35b558;
+	border-left-color: transparent;
+	border-bottom-color: transparent;
+	animation: rotate 1s ease forwards ;
+}
+@keyframes rotate{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(315deg);
+	}
+}
+
+
+.nav li:hover .nav_list {
+	animation: opacity 1s ease forwards;
+}
+
+#s_ctrl_wrap:hover .ctrl_icon_l {
+	animation: opacity 1s ease forwards;
+}
+#s_ctrl_wrap:hover .ctrl_icon_r {
+	animation: opacity 1s ease forwards;
+}
+
+
+@keyframes opacity{
+	0%{
+		opacity: 0;
+		
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
+.slide_content{
+	animation: slide 25s ease-in  infinite;
+}
+@keyframes slide{
+	0%{
+		transform:translate(0,0)
+	}
+	17%{
+		transform:translate(0,0)
+		}
+	20%{
+		transform:translate(-750px,0)
+	}
+	37%{
+		
+		transform:translate(-750px,0)
+	}
+	40%{
+		transform:translate(-1500px,0)	
+	}
+	57%{
+		transform:translate(-1500px,0)	
+	}
+	60%{
+		transform:translate(-2250px,0)	
+	}
+	77%{
+		transform:translate(-2250px,0)	
+	}
+	97%{
+		transform:translate(0,0)	
+	}
+	100%{
+		transform:translate(0,0)	
+	}
+}
+
+
+
+
+
+/*登录&注册&全部课程&更多合作企业*/
+.login,.register,.all_course a,.more_cooperation a{
+	transition:color 1s,background-color 1s;
+	
+}
+.login:hover,.register:hover,.all_course a:hover,.more_cooperation a:hover{
+		color: #fff;
+		background-color: #4fba6b;
+}
+
+
+
+
+
+
+/*就业班*/
+.job{
+	transition: box-shadow .5s;
+}
+
+.job:hover{
+		box-shadow: 0 5px 5px #777;
+}
+
+
+/*就业班下*/
+.classes_content{
+	transition: box-shadow .5s;
+}
+
+.classes_content:hover {
+		box-shadow: 0 5px 5px #d1d1d1;
+}
+
+
+/*会员课程*/
+
+.vip_course{
+	transition: box-shadow .5s;
+}
+
+.vip_course:hover {
+		box-shadow: 0 5px 5px #d1d1d1;
+}
+
+
+.academy_l,.academy_r{
+	transition: opacity .5s;
+}
+
+.academy_l:hover,.academy_r:hover{
+	opacity: .9;
+}
+
+/*学员故事*/
+
+.bubble{
+	transition: box-shadow .5s;
+}
+.bubble:hover{
+	box-shadow: 0 5px 5px #d1d1d1;
+}
+
+/*合作企业*/
+
+.main_cooperation li{
+	transition: box-shadow .5s;
+}
+.main_cooperation li:hover{
+		box-shadow: 0 5px 5px #d1d1d1;
+}

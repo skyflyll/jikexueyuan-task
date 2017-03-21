@@ -1,0 +1,23 @@
+body{
+font-size: 14px arial;
+overflow: hidden;
+}
+p{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 25px;
+}
+table tr th{
+	width: 80px;
+	height: 35px;
+	padding: 0px;
+	margin: 0px;
+}
+table tr td{
+	width: 80px;
+	height: 35px;
+	border: 1;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}

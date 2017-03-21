@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.view{
+		width:400px;
+		margin:0 auto;
+	}
+	.cube{
+		margin-top: 150px;
+		margin-left: 150px;
+		height: 150px;
+		width: 150px;
+	
+		perspective: 0px;
+		perspective-origin: 50% 50%;
+		transform-style: preserve-3d;
+		animation:animation 2s infinite linear;
+/*		动画
+*/				
+		-webkit-transform-origin: 50% 50% 75px;	
+		transform-origin: 50% 50% 75px;	
+		-webkit-perspective:0px;
+		-webkit-perspective-origin:50% 50%;
+		-webkit-transform-style:preserve-3d;
+		-webkit-animation:animation 2s infinite linear;
+		
+}
+	
+	
+	/*	动画	*/	
+	@keyframes animation{
+		0%{
+			transform: rotate(0deg) rotateY(0deg) rotateZ(0deg);
+		}
+		50%{
+			transform: rotate(180deg) rotateY(180deg) rotateZ(360deg);
+		}
+		100%{
+			transform: rotate(360deg) rotateY(360deg) rotateZ(720deg);
+		}
+	}
+
+	.wrap{
+/*		opacity: .5;   */
+		position:absolute;
+
+	}
+		
+	ul{
+		list-style: none;
+	}
+	li{
+		width: 44px;
+		height: 44px;
+		float: left;
+		border: #000000 solid ;
+		border-radius: 20%;
+		display: box;
+		display: -webkit-box;
+		display: -moz-box;
+		box-pack:center;
+		box-align:center;
+		-webkit-box-pack:center;
+		-webkit-box-align:center;
+		-moz-box-pack:center;
+		-moz-box-align:center;
+		
+	}
+	
+/*前上后下左右-六个面-后面的position不需要操作
+*/	
+	#front{
+		-webkit-transform: translateZ(150px);
+		transform:translateZ(150px);
+	}
+	
+	#top{
+		-webkit-transform-origin: top;
+		-webkit-transform: rotateX(90deg);
+		transform-origin: top;
+		transform: rotateX(90deg);
+		}
+	#back{		
+	}
+	
+	#bottom{
+		-webkit-transform-origin: bottom;
+		-webkit-transform: rotateX(-90deg);
+		transform-origin: bottom;
+		transform: rotateX(-90deg);
+	}
+	#left{
+		-webkit-transform-origin: 0 -50%;
+		-webkit-transform: rotateY(-90deg);
+		transform-origin: 0 -50% ;
+		transform: rotateY(-90deg);
+	}
+	#right{
+		-webkit-transform-origin: 100% 0% ;
+		-webkit-transform: rotateY(90deg);
+		transform-origin: 100% 0%;
+		transform: rotateY(90deg);
+	}
+	
+/*	颜色控制--开始*/	
+	.front_color{
+		color:#000000;
+		background-color: #FF5F62;
+	}
+	.top_color{
+		color: #000000;
+		background-color: #AFFD81;
+	}
+	.back_color{
+		color: #000000;
+		background-color: #E4D86B;
+	}
+	.bottom_color{
+		color: #000000;
+		background-color: #E581D8;
+	}
+	.left_tcolor{
+		color: #000000;
+		background-color: #5CAC6D;
+	}
+	.right_color{
+		color: #000000;
+		background-color: #FF8E00;
+	
+	}
+	
+/*	颜色控制--结束*/	

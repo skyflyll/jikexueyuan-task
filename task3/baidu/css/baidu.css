@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font: arial;
+}
+
+.nav {
+    height: 23px;
+    margin-top: 20px;
+    margin-right: 14px;
+    float: right;
+    line-height: 23px;
+}
+
+.nav a {
+    margin-left: 17px;
+    display: inline-block;
+    color: #333333;
+    font-size: 13px;
+    font-family: SimSun;
+    font-weight: bold;
+}
+
+a#login,
+a#setting {
+    font-weight: normal;
+}
+
+a.more {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #3388FF;
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.more a {}
+
+.empty1 {
+    height: 100px;
+    clear: both;
+    background-color: azure;
+}
+
+.container {
+    min-width: 810px;
+    height: 100%;
+    min-height: 600px;
+    position: relative;
+    display: block;
+}
+
+
+/*中间*/
+
+.logo_wrap {
+    height: 129px;
+    width: 270px;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+
+#bd_logo {
+    height: 129px;
+    width: 270px;
+}
+
+.form_wrap {
+    width: 640px;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 35px;
+    background-color: blue;
+}
+
+.wd_wrap {
+    z-index: 1;
+    height: 36px;
+    width: 540px;
+    float: left;
+    background-color: #51AD30;
+}
+
+.wd {
+    height: 34px;
+    margin: 0 auto;
+    width: 538px;
+    border: #B8B8B8 solid 1px;
+    border-right-width: 0px;
+}
+
+.wd:hover {
+    border: #999999 solid 1px;
+    border-right-width: 0px;
+}
+
+.wd:focus {
+    border: #3385ff solid 1px;
+    background-color: #fff;
+    border-right-width: 0px;
+}
+
+.btn_wrap {
+    height: 36px;
+    width: 100px;
+    float: left;
+    background-color: #3385FF;
+}
+
+.btn {
+    height: 36px;
+    width: 100px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: #3385ff;
+    border: #3385ff;
+}
+
+.btn:hover {
+    background-color: #317EF3;
+    box-shadow: 1px 1px 3px #E0E0E0;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    bottom: 23px;
+    overflow: hidden;
+    text-align: left;
+    position: absolute;
+    color: #999;
+}
+
+.ft_wrap {
+    width: 640px;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 12px;
+    font-family: arial;
+}
+
+.bd_QRcode {
+    height: 60px;
+    width: 60px;
+    background-image: url(../img/zbios_efde696[1].png);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.ft_text {
+    height: 60px;
+    margin: 8px 0 0 10px;
+    float: left;
+    text-align: center;
+    line-height: 23px;
+}
+
+.ft_text b {
+    color: #666;
+}
+
+.nuomi_QRcode {
+    width: 60px;
+    height: 60px;
+    margin-left: 23px;
+    background-image: url(../img/nuomi_365eabd[1].png);
+    float: left;
+}
+
+.nuomi_QRcode_text {
+    line-height: 23px;
+}
+
+.ft_link {
+    display: inline-block;
+    text-align: left;
+    margin-left: 33px;
+    float: left;
+    position: relative;
+}
+
+.ft_link p {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    line-height: 20px;
+    font: 12px arial;
+    color: #999;
+}
+
+.ft_link a {
+    color: #999;
+}
+
+.ft_link #item1 a {
+    margin-left: 23px;
+}
+
+.ft_link #item1 #setf {
+    margin-left: 0;
+}
+
+.ft_QRcode {
+    float: left;
+}

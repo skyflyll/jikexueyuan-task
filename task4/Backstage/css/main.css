@@ -1,0 +1,341 @@
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../rec/glyphicons-halflings-regular.eot');
+    src: url('../rec/glyphicons-halflings-regular.eot?#iefix')format('embedded-opentype'), url('../rec/glyphicons-halflings-regular.woff') format('woff'), url('../rec/glyphicons-halflings-regular.ttf') format('truetype'), url('../rec/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+
+/*左边*/
+
+.leftpane1 {
+    width: 240px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logopane1 {
+    padding: 10px;
+    background: #fff;
+}
+
+.logopane1 h1 {
+    font-size: 30px;
+    font-family: 'LatoBold', 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, sans-serif;
+    /*文字间距*/
+    / letter-spacing: -1.5px;
+    color: #1d2939;
+    line-height: 30px;
+    margin: 0;
+}
+
+.logopane1 h1 span {
+    color: #1caf9a;
+}
+
+.leftpane1title {
+    padding: 5px 15px;
+}
+
+.sidebartitle {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.nav-bracket {
+    margin-bottom: 30px;
+}
+
+.info {
+    margin: 30 0;
+}
+
+.datainfo {
+    line-height: normal;
+}
+
+.text-muted {
+    line-height: normal;
+    text-transform: uppercase;
+    font-size: 10px;
+    opacity: 0.4;
+}
+
+.datainfo h4 {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #f55;
+    opacity: 0.7;
+}
+
+.info ul li {
+    margin: 5px 0;
+    border-bottom: 1px solid #ff5555;
+}
+
+
+/*中间内容*/
+
+
+/*头部导航*/
+
+@media (max-width: 768px) {
+    .mainpane1 {
+        margin-left: 0px;
+        background-color: #e4e7ea;
+        min-height: 1000px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .mainpane1 {
+        margin-left: 0px;
+        background-color: #e4e7ea;
+        min-height: 1000px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .mainpane1 {
+        margin-left: 240px;
+        background-color: #e4e7ea;
+        min-height: 1000px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .mainpane1 {
+        margin-left: 240px;
+        background-color: #e4e7ea;
+        min-height: 1000px;
+    }
+}
+
+.headerbar {
+    height: 50px;
+    border-left: 1px solid #eee;
+    background: #fff;
+}
+
+.menutoggle {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    cursor: pointer;
+    float: left;
+    color: #1d2939;
+    background: #fff;
+    border-right: 1px solid #eee;
+}
+
+.headerbar .menutoggle i {
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+.searchform input {
+    width: 250px;
+    background: #fff url(../img/icon-search.png) no-repeat 95% center;
+    float: left;
+    padding: 18px 20px;
+    border: 0;
+    border-right: 1px solid #eee;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    height: 50px;
+    font-size: 14px;
+}
+
+.header-right {
+    float: right;
+}
+
+.headermenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.headermenu li {
+    float: right;
+}
+
+.tp-icon {
+    padding: 12px 15px;
+    height: 50px;
+    font-size: 16px;
+    background: #fff;
+    color: #333;
+    border-color: #fff;
+    border-radius: 0px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.caret {
+    margin-left: 5px;
+}
+
+.btn-group img {
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 26px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+
+/*页面头部*/
+
+.pageheader {
+    padding: 15px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #d2d7db;
+    background: #f7f7f7;
+    position: relative;
+}
+
+.pageheader h2 {
+    font-size: 28px;
+    color: #1d2939;
+    letter-spacing: -0.5px;
+    margin: 0;
+}
+
+.pageheader h2 span {
+    font-size: 13px;
+    text-transform: none;
+    color: #999;
+    font-style: italic;
+    vertical-align: middle;
+    letter-spacing: 0;
+}
+
+.warpper {
+    position: absolute;
+    top: 23px;
+    right: 25px;
+}
+
+.label {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.contr {
+    margin-bottom: 20px;
+    list-style: none;
+    border-radius: 4px;
+    background: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.contr li {
+    display: inline-block;
+}
+
+
+/*内容*/
+
+.contentpane1 {
+    padding: 20px;
+    position: relative;
+}
+
+.panel-heading {
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.stat {
+    color: #fff;
+    max-width: 250px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h4 {
+    margin: 10px 0px 0px 0px;
+}
+
+.warning {
+    background: #F26456!important;
+}
+
+.danger {
+    background: #4BCB7C!important;
+}
+
+.success {
+    background: #3C78FC!important;
+}
+
+.primary {
+    background: #9874DB!important;
+}
+
+.left1 div,
+.right1 div {
+    height: 350px;
+    padding: 0px;
+    margin: 0px;
+    background: #ff5555;
+    border-radius: 3px;
+}
+
+.right1 div {
+    background: #3C78FC;
+}
+
+.left2 div,
+.right2 div {
+    height: 350px;
+    padding: 0px;
+    margin: 0px;
+    background: #43BDEA;
+    border-radius: 3px;
+}
+
+.right2 div {
+    background: #F6A820;
+}
+
+.right1,
+.right2,
+.left1,
+.left2,
+.left3,
+.right3,
+.center3 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.left3 div,
+.right3 div,
+.center3 div {
+    height: 350px;
+    padding: 0px;
+    margin: 0px;
+    background: #43BDEA;
+    border-radius: 3px;
+}
+
+.right3 div {
+    background: #F6A820;
+}
+
+.center3 div {
+    background: #9874DB;
+}

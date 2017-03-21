@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>hao123</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body style="background: #fff" id="body_bg">
+    <div class="container">
+        <div class="hao_header">
+            <div class="header">
+                <a href="#" id="sethome">
+                    <span>设为首页</span>
+                </a>
+                <div class="hao_logo">
+                    <a href="#" class="logo_link">
+                        <img src="img/logo.png" alt="上网从hao123开始">
+                    </a>
+                </div>
+                <div class="hao_col">
+                    <div class="weather" id="weather">
+                        <a href="#" class="weather_city ib" id="weather_city" onclick="show('card','card_block')">
+                            <span class="city ib">贵阳</span>
+                            <span class="arrow ib"></span>
+                        </a>
+                        <a href="#" class="weather_info ib">
+                            <span class="weather_icon ib"></span>
+                            <span class="weather_d ib">小雨</span>
+                            <span class="weather_t ib">7°C~12°C</span>
+                            <div class="weather_tips ib" style="display: none;">
+                                <i class="weather_tips_icon ib"></i> 今夜阳光明媚
+                                <i class="weather_tios_tr ib"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="weather_link ib">
+                            <span class="weather_link_icon ib"></span>
+                        </a>
+                        <div class="card_none" id="card">
+                            <div class="select">
+                                <select class="select_province">
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                </select>
+                                <select class="select_city">
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                </select>
+                                <select class="select_district">
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                    <option>贵阳</option>
+                                </select>
+                            </div>
+                            <a href="#" class="btn_save ib">确定</a>
+                            <a href="#" class="btn_cancle ib">取消</a>
+                        </div>
+                    </div>
+                    <div class="calendar">
+                        <div class="calendar_info">
+                            <a href="#" class="cal_link ib">
+                                <span class="month ib">1月09日</span>
+                                <span class="day ib">周一</span>
+                            </a>
+                            <span class="calender_info_d ib">
+                                <div class="holidays_slider ib">
+                                    <ul class="holidays ib">
+                                        <li class="holiday ib"><a href="#">春运抢票</a></li>
+                                        <li class="holiday ib"><a href="#">十二月十二</a></li>
+                                        <li class="holiday ib"><a href="#">春运抢票</a></li>
+                                    </ul>
+                                </div>
+                            </span>
+                            <div class="calender_box" style="display: none;">
+                                <div class="calender_bar">
+                                    <div class="date_time">
+                                        <a href="#" class="year">2017</a>
+                                        <a href="#" class="date_month"><em>01</em>月</a>
+                                        <a href="#" class="lunar">十二月十二</a>
+                                        <div class="link_date">
+                                            <a href="#">万年历</a>
+                                        </div>
+                                        <div class="up">
+                                            <a href="#" title="上一页"></a>
+                                        </div>
+                                        <div class="down">
+                                            <a href="#" title="下一页"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="calender_list">
+                                    <span>null</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="star ib">
+                        <a href="#" class="star_link">
+                                星座运势
+                            </a>
+                        <div class="star_luck" style="display: none;"></div>
+                    </div>
+                </div>
+                <div class="hao_link ib">
+                    <div class="username ib">
+                        <span class="username_link ib">
+                            <i class="username_icon ib"></i>
+                            <a href="#" class="user_name ib">林朗</a>
+                        </span>
+                        <div class="more" style="display: none;">
+                            <ul class="list">
+                                <li>
+                                    <a href="#">
+                                        <i class="gift"></i> VIP会员
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    百度网盘
+                                    <i></i>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">退出</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <span>网盘</span>
+                    <span>邮箱</span>
+                    <span>浏览器</span>
+                    <span>服务</span>
+                </div>
+                <div class="hao_joke">
+                    <i class="smile"></i>
+                    <span class="joke_text">谁~是~大~英~雄</span>
+                </div>
+            </div>
+            <div class="headerBg"></div>
+            <div class="headerBottom"></div>
+        </div>
+        <div class="hao_box">
+            <div class="search_box">
+                <div class="hao123_search">
+                    <div class="search">
+                        <div class="logo_box"></div>
+                        <a href="#" class="tabs_toggle">
+                            <span tabs_curr>网页</span>
+                            <i class="arrow ib"></i>
+                        </a>
+                        <div class="select_tabs ib" style="display:none;">
+                            <a href="#" class="news_more">网页</a>
+                            <a href="#" class="news_more">音乐</a>
+                            <a href="#" class="news_more">视频</a>
+                            <a href="#" class="news_more">图片</a>
+                            <a href="#" class="news_more">贴吧</a>
+                            <a href="#" class="news_more">知道</a>
+                            <a href="#" class="news_more">新闻</a>
+                            <a href="#" class="news_more">地图</a>
+                            <a href="#" class="news_more">更多&gt;&gt;</a>
+                        </div>
+                        <div class="form_warpper">
+                            <form action="#">
+                                <div class="input_warpper">
+                                    <div class="input_shadow ib">
+                                        <input type="text" name="" class="input ib">
+                                        <a href="#">
+                                            <span class="hot_num ib">5</span>
+                                        </a>
+                                    </div>
+                                    <div class="btn_wapper ib">
+                                        <input type="submit" name="" value="" class="button ib">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="style_color ib">
+                        <p>选取颜色换护</p>
+                        <div class="style_bg" id="style_bg">
+                            <span style="background: #4BCB7C;" class="change_c"></span>
+                            <span style="background: #ff5555" class="change_c"></span>
+                            <span style="background: #F26456" class="change_c"></span>
+                            <span style="background: #5F8FBA" class="change_c"></span>
+                            <span style="background: gray" class="change_c"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hao_hot">
+            <div class="hot_search">
+                <ul class="boxhot">
+                    <li></li>
+                    <li>贵阳天气</li>
+                    <li>英超</li>
+                    <li>陈思成出轨</li>
+                    <li>心痛佟丽娅</li>
+                    <li>金球奖</li>
+                    <li>308万年终奖</li>
+                    <li>哈哈哈哈</li>
+                </ul>
+            </div>
+        </div>
+        <div class="hao_body">
+            <div class="hao_nav">
+                <ul id="nav_id">
+                    <li>首页</li>
+                    <li>电视剧</li>
+                    <li>最新电影</li>
+                    <li>新闻头条</li>
+                    <li>娱乐八卦</li>
+                    <li>军事热点</li>
+                    <li>热门游戏</li>
+                    <li>小游戏</li>
+                    <li>今日特价</li>
+                    <li>特价旅游</li>
+                    <li>贵阳生活</li>
+                </ul>
+            </div>
+            <div class="govsit_top">
+                <div class="govinner">
+                    <span class="title_1 ib">权威推荐</span>
+                    <span class="title_2 ib"></span>
+                    <ul class="gov_items ib">
+                        <li>人民网</li>
+                        <li>新华网</li>
+                        <li>央视网</li>
+                        <li>国际在线</li>
+                        <li>中国日报网</li>
+                        <li>中国网</li>
+                        <li>中国经济网</li>
+                        <li>光明网</li>
+                        <li>央广网</li>
+                        <li>求是网</li>
+                        <li>中国青年网</li>
+                        <li>中国网信网</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content_menu">
+                <div class="content_right">
+                    <div class="famoussite">
+                        <div class="box_site">
+                            <div class="site_img"></div>
+                            <ul class="site_name">
+                                <li><i class="ib"></i>百度·贴吧</li>
+                                <li><i class="ib"></i>新浪·微博</li>
+                                <li><i class="ib"></i>搜狐·热点</li>
+                                <li><i class="ib"></i>腾 讯</li>
+                                <li><i class="ib"></i>网 易</li>
+                                <li><i class="ib"></i>优 酷</li>
+                                <li><i class="ib"></i>天 猫</li>
+                                <li><i class="ib"></i>凤凰网</li>
+                                <li><i class="ib"></i>淘宝网</li>
+                                <li><i class="ib"></i>天猫年货节</li>
+                                <li><i class="ib"></i>4399小游戏</li>
+                                <li><i class="ib"></i>hao123影视</li>
+                                <li><i class="ib"></i>京东商城</li>
+                                <li><i class="ib"></i>苏林易购</li>
+                                <li><i class="ib"></i>今日特价</li>
+                                <li><i class="ib"></i>体育·NBA</li>
+                                <li><i class="ib"></i>汽车之家</li>
+                                <li><i class="ib"></i>聚划算</li>
+                            </ul>
+                        </div>
+                        <div class="box_site">
+                            <ul class="site_name">
+                                <li><i class="ib"></i>百度·贴吧</li>
+                                <li><i class="ib"></i>新浪·微博</li>
+                                <li><i class="ib"></i>搜狐·热点</li>
+                                <li><i class="ib"></i>腾 讯</li>
+                                <li><i class="ib"></i>网 易</li>
+                                <li><i class="ib"></i>优 酷</li>
+                                <li><i class="ib"></i>天 猫</li>
+                                <li><i class="ib"></i>凤凰网</li>
+                                <li><i class="ib"></i>淘宝网</li>
+                                <li><i class="ib"></i>天猫年货节</li>
+                                <li><i class="ib"></i>4399小游戏</li>
+                                <li><i class="ib"></i>hao123影视</li>
+                                <li><i class="ib"></i>京东商城</li>
+                                <li><i class="ib"></i>苏林易购</li>
+                                <li><i class="ib"></i>今日特价</li>
+                                <li><i class="ib"></i>体育·NBA</li>
+                                <li><i class="ib"></i>汽车之家</li>
+                                <li><i class="ib"></i>聚划算</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="famoussite">
+                        <div class="box_site">
+                            <div class="site_img"></div>
+                            <ul class="site_name">
+                                <li><i class="ib"></i>百度·贴吧</li>
+                                <li><i class="ib"></i>新浪·微博</li>
+                                <li><i class="ib"></i>搜狐·热点</li>
+                                <li><i class="ib"></i>腾 讯</li>
+                                <li><i class="ib"></i>网 易</li>
+                                <li><i class="ib"></i>优 酷</li>
+                                <li><i class="ib"></i>天 猫</li>
+                                <li><i class="ib"></i>凤凰网</li>
+                                <li><i class="ib"></i>淘宝网</li>
+                                <li><i class="ib"></i>天猫年货节</li>
+                                <li><i class="ib"></i>4399小游戏</li>
+                                <li><i class="ib"></i>hao123影视</li>
+                                <li><i class="ib"></i>京东商城</li>
+                                <li><i class="ib"></i>苏林易购</li>
+                                <li><i class="ib"></i>今日特价</li>
+                                <li><i class="ib"></i>体育·NBA</li>
+                                <li><i class="ib"></i>汽车之家</li>
+                                <li><i class="ib"></i>聚划算</li>
+                            </ul>
+                        </div>
+                        <div class="box_site">
+                            <ul class="site_name">
+                                <li><i class="ib"></i>百度·贴吧</li>
+                                <li><i class="ib"></i>新浪·微博</li>
+                                <li><i class="ib"></i>搜狐·热点</li>
+                                <li><i class="ib"></i>腾 讯</li>
+                                <li><i class="ib"></i>网 易</li>
+                                <li><i class="ib"></i>优 酷</li>
+                                <li><i class="ib"></i>天 猫</li>
+                                <li><i class="ib"></i>凤凰网</li>
+                                <li><i class="ib"></i>淘宝网</li>
+                                <li><i class="ib"></i>天猫年货节</li>
+                                <li><i class="ib"></i>4399小游戏</li>
+                                <li><i class="ib"></i>hao123影视</li>
+                                <li><i class="ib"></i>京东商城</li>
+                                <li><i class="ib"></i>苏林易购</li>
+                                <li><i class="ib"></i>今日特价</li>
+                                <li><i class="ib"></i>体育·NBA</li>
+                                <li><i class="ib"></i>汽车之家</li>
+                                <li><i class="ib"></i>聚划算</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="famoussite">
+                        <div class="box_site">
+                            <div class="site_img"></div>
+                            <ul class="site_name">
+                                <li><i class="ib"></i>百度·贴吧</li>
+                                <li><i class="ib"></i>新浪·微博</li>
+                                <li><i class="ib"></i>搜狐·热点</li>
+                                <li><i class="ib"></i>腾 讯</li>
+                                <li><i class="ib"></i>网 易</li>
+                                <li><i class="ib"></i>优 酷</li>
+                                <li><i class="ib"></i>天 猫</li>
+                                <li><i class="ib"></i>凤凰网</li>
+                                <li><i class="ib"></i>淘宝网</li>
+                                <li><i class="ib"></i>天猫年货节</li>
+                                <li><i class="ib"></i>4399小游戏</li>
+                                <li><i class="ib"></i>hao123影视</li>
+                                <li><i class="ib"></i>京东商城</li>
+                                <li><i class="ib"></i>苏林易购</li>
+                                <li><i class="ib"></i>今日特价</li>
+                                <li><i class="ib"></i>体育·NBA</li>
+                                <li><i class="ib"></i>汽车之家</li>
+                                <li><i class="ib"></i>聚划算</li>
+                            </ul>
+                        </div>
+                        <div class="box_site">
+                            <ul class="site_name">
+                                <li><i class="ib"></i>百度·贴吧</li>
+                                <li><i class="ib"></i>新浪·微博</li>
+                                <li><i class="ib"></i>搜狐·热点</li>
+                                <li><i class="ib"></i>腾 讯</li>
+                                <li><i class="ib"></i>网 易</li>
+                                <li><i class="ib"></i>优 酷</li>
+                                <li><i class="ib"></i>天 猫</li>
+                                <li><i class="ib"></i>凤凰网</li>
+                                <li><i class="ib"></i>淘宝网</li>
+                                <li><i class="ib"></i>天猫年货节</li>
+                                <li><i class="ib"></i>4399小游戏</li>
+                                <li><i class="ib"></i>hao123影视</li>
+                                <li><i class="ib"></i>京东商城</li>
+                                <li><i class="ib"></i>苏林易购</li>
+                                <li><i class="ib"></i>今日特价</li>
+                                <li><i class="ib"></i>体育·NBA</li>
+                                <li><i class="ib"></i>汽车之家</li>
+                                <li><i class="ib"></i>聚划算</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_left">
+                    <div class="server_left">
+                        <div class="box_satr">
+                            <ul>
+                                <li><a href="#"><i></i><span>电视剧|综艺</span></a></li>
+                                <li><a href="#"><i></i><span>游戏|小游戏</span></a></li>
+                                <li><a href="#"><i></i><span>电影|直播</span></a></li>
+                                <li><a href="#"><i></i><span>动画|动漫</span></a></li>
+                                <li><a href="#"><i></i><span>新闻|军事</span></a></li>
+                                <li><a href="#"><i></i><span>旅游|音乐</span></a></li>
+                                <li><a href="#"><i></i><span>彩票|精彩</span></a></li>
+                                <li><a href="#"><i></i><span>搞笑|小说</span></a></li>
+                                <li><a href="#"><i></i><span>特价|手机</span></a></li>
+                                <li><a href="#"><i></i><span>股票|理财</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="server_left">
+                        <div class="box_satr">
+                            <ul>
+                                <li><a href="#"><i></i><span>电视剧|综艺</span></a></li>
+                                <li><a href="#"><i></i><span>游戏|小游戏</span></a></li>
+                                <li><a href="#"><i></i><span>电影|直播</span></a></li>
+                                <li><a href="#"><i></i><span>动画|动漫</span></a></li>
+                                <li><a href="#"><i></i><span>新闻|军事</span></a></li>
+                                <li><a href="#"><i></i><span>旅游|音乐</span></a></li>
+                                <li><a href="#"><i></i><span>彩票|精彩</span></a></li>
+                                <li><a href="#"><i></i><span>搞笑|小说</span></a></li>
+                                <li><a href="#"><i></i><span>特价|手机</span></a></li>
+                                <li><a href="#"><i></i><span>股票|理财</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="server_left">
+                        <div class="box_satr">
+                            <ul>
+                                <li><a href="#"><i></i><span>电视剧|综艺</span></a></li>
+                                <li><a href="#"><i></i><span>游戏|小游戏</span></a></li>
+                                <li><a href="#"><i></i><span>电影|直播</span></a></li>
+                                <li><a href="#"><i></i><span>动画|动漫</span></a></li>
+                                <li><a href="#"><i></i><span>新闻|军事</span></a></li>
+                                <li><a href="#"><i></i><span>旅游|音乐</span></a></li>
+                                <li><a href="#"><i></i><span>彩票|精彩</span></a></li>
+                                <li><a href="#"><i></i><span>搞笑|小说</span></a></li>
+                                <li><a href="#"><i></i><span>特价|手机</span></a></li>
+                                <li><a href="#"><i></i><span>股票|理财</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

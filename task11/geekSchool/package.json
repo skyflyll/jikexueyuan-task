@@ -1,0 +1,14 @@
+{
+  "name": "geek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fis-conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^2.7.2"
+  }
+}

@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>极客学院</title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style1.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/animation1.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+</head>
+
+<body>
+    <!--头部导航+搜索-->
+    <div class="header_wrap">
+        <div class="header">
+            <a class="logo" href="#">
+                <img id="logo" src="img/logo.png">
+            </a>
+            <div class="nav_wrap">
+                <ul class="nav">
+                    <li>
+                        <a href="../index.html" style="color:#35b558">首页</a>
+                    </li>
+                    <li>
+                        <a href="#">职业学院<span class="arrow_icon"></span></a>
+                        <div class="nav_list nav_list1">
+                            <div class="nav_list_title">
+                                前端学院
+                            </div>
+                            <div class="nav_list_content">
+                                <a href="#">
+                                    <span class="nav_list_icon1-1"></span>Web前端工程师
+                                </a>
+                            </div>
+                            <div class="nav_list_content">
+                                <a href="#"><span class="nav_list_icon1-2"></span>微信小程序工程师</a>
+                            </div>
+                            <div class="nav_list_title">
+                                后端学院
+                            </div>
+                            <div class="nav_list_content">
+                                <a href="#"><span class="nav_list_icon1-3"></span>Python Web工程师</a>
+                            </div>
+                            <div class="nav_list_content">
+                                <a href="#"><span class="nav_list_icon1-4"></span>Go语言工程师</a>
+                            </div>
+                            <div class="nav_list_title">
+                                移动学院
+                            </div>
+                            <div class="nav_list_content">
+                                <a href="#"><span class="nav_list_icon1-5"></span>Android工程师</a>
+                            </div>
+                            <div class="nav_list_content">
+                                <a href="#"><span class="nav_list_icon1-6"></span>iOS工程师</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">会员课程<span class="arrow_icon"></span></a>
+                        <div class="nav_list nav_list2">
+                            <div class="nav_list_content">
+                                <a href="#">
+                                    <span class="nav_list_icon2-1"></span>课程库
+                                </a>
+                            </div>
+                            <div class="nav_list_content">
+                                <a href="#"><span class="nav_list_icon2-2"></span>职业路径图</a>
+                            </div>
+                            <div class="nav_list_content">
+                                <a href="#"><span class="nav_list_icon2-3"></span>知识体系图</a>
+                            </div>
+                            <div class="nav_list_content">
+                                <a href="#"><span class="nav_list_icon2-4"></span>课程库</a>
+                            </div>
+                            <div class="nav_list_content">
+                                <a href="#"><span class="nav_list_icon2-5"></span>课程标签</a>
+                            </div>
+                            <div class="nav_list_content">
+                                <a href="#"><span class="nav_list_icon2-6"></span>vip会员购买</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">极客社区<span class="arrow_icon"></span></a>
+                        <div class="nav_list nav_list3">
+                            <div class="nav_list_content">
+                                <a href="#">
+                                    <span class="nav_list_icon3-1"></span>技术问答
+                                </a>
+                            </div>
+                            <div class="nav_list_content">
+                                <a href="#"><span class="nav_list_icon3-2"></span>Wiki</a>
+                            </div>
+                            <div class="nav_list_content">
+                                <a href="#"><span class="nav_list_icon3-3"></span>社群</a>
+                            </div>
+                            <div class="nav_list_content">
+                                <a href="#"><span class="nav_list_icon3-4"></span>资源下载</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="search_wrap">
+                <a href="#">
+                    <div class="search_all" id="per_info">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="search_all" id="qr_code">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="search_all" id="search">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- container开始 -->
+    <div class="container mat-top">
+        <div class="right">
+            <div class="sort">
+                <div class="sortMond">
+                    <h3>全部课程</h3>
+                    <dl>
+                        <dt>最新<i></i></dt>
+                        <dd>
+                            <p>最新</p>
+                            <p>最热</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>课程类型<i></i></dt>
+                        <dd>
+                            <p>最新</p>
+                            <p>最热</p>
+                            <p>最新</p>
+                            <p>最热</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>内容类型<i></i></dt>
+                        <dd>
+                            <p>最新</p>
+                            <p>最热</p>
+                            <p>最新</p>
+                            <p>最热</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>难度等级<i></i></dt>
+                        <dd>
+                            <p>最新</p>
+                            <p>最热</p>
+                            <p>最新</p>
+                            <p>最热</p>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="previewMode">
+                    <ul>
+                        <li><i></i></li>
+                        <li><i></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lesson-list" id="lesson_list">
+                <ul>
+                    <li>
+                    <div class="lesson_img_box">
+                        <i class="icon"></i>
+                        <a href="#"></a>
+                        <div><i></i></div>
+                    </div>
+                    <div class="lesson_info">
+                        <h2>
+                            <a href="#">腾讯云产品-游戏云</a>
+                        </h2>
+                        <p style="display: none; opacity: 0; height: 0;">
+                            本课程主要介绍腾讯游戏云想着知识
+                        </p>
+                        <div class="cf">
+                            <dl>
+                                <dd><i></i>5课时 177分钟</dd>
+                                <dd style="display: none"><i></i>中级</dd>
+                            </dl>
+                            <em style="display: none">2017人学习</em>
+                            <i></i>
+                        </div>
+                    </div>
+                </li>
+                    <li>
+                        <div class="lesson_img_box">
+                            <i class="icon"></i>
+                            <a href="#"></a>
+                            <div><i></i></div>
+                        </div>
+                        <div class="lesson_info">
+                            <h2>
+                                <a href="#">腾讯云产品-游戏云</a>
+                            </h2>
+                            <p style="display: none; opacity: 0; height: 0;">
+                                本课程主要介绍腾讯游戏云想着知识
+                            </p>
+                            <div class="cf">
+                                <dl>
+                                    <dd><i></i>5课时 177分钟</dd>
+                                    <dd style="display: none"><i></i>中级</dd>
+                                </dl>
+                                <em style="display: none">2017人学习</em>
+                                <i></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="lesson_img_box">
+                            <i class="icon"></i>
+                            <a href="#"></a>
+                            <div><i></i></div>
+                        </div>
+                        <div class="lesson_info">
+                            <h2>
+                                <a href="#">腾讯云产品-游戏云</a>
+                            </h2>
+                            <p style="display: none; opacity: 0; height: 0;">
+                                本课程主要介绍腾讯游戏云想着知识
+                            </p>
+                            <div class="cf">
+                                <dl>
+                                    <dd><i></i>5课时 177分钟</dd>
+                                    <dd style="display: none"><i></i>中级</dd>
+                                </dl>
+                                <em style="display: none">2017人学习</em>
+                                <i></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="lesson_img_box">
+                            <i class="icon"></i>
+                            <a href="#"></a>
+                            <div><i></i></div>
+                        </div>
+                        <div class="lesson_info">
+                            <h2>
+                                <a href="#">腾讯云产品-游戏云</a>
+                            </h2>
+                            <p style="display: none; opacity: 0; height: 0;">
+                                本课程主要介绍腾讯游戏云想着知识
+                            </p>
+                            <div class="cf">
+                                <dl>
+                                    <dd><i></i>5课时 177分钟</dd>
+                                    <dd style="display: none"><i></i>中级</dd>
+                                </dl>
+                                <em style="display: none">2017人学习</em>
+                                <i></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="lesson_img_box">
+                            <i class="icon"></i>
+                            <a href="#"></a>
+                            <div><i></i></div>
+                        </div>
+                        <div class="lesson_info">
+                            <h2>
+                                <a href="#">腾讯云产品-游戏云</a>
+                            </h2>
+                            <p style="display: none; opacity: 0; height: 0;">
+                                本课程主要介绍腾讯游戏云想着知识
+                            </p>
+                            <div class="cf">
+                                <dl>
+                                    <dd><i></i>5课时 177分钟</dd>
+                                    <dd style="display: none"><i></i>中级</dd>
+                                </dl>
+                                <em style="display: none">2017人学习</em>
+                                <i></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="lesson_img_box">
+                            <i class="icon"></i>
+                            <a href="#"></a>
+                            <div><i></i></div>
+                        </div>
+                        <div class="lesson_info">
+                            <h2>
+                                <a href="#">腾讯云产品-游戏云</a>
+                            </h2>
+                            <p style="display: none; opacity: 0; height: 0;">
+                                本课程主要介绍腾讯游戏云想着知识
+                            </p>
+                            <div class="cf">
+                                <dl>
+                                    <dd><i></i>5课时 177分钟</dd>
+                                    <!--<dd style="display: none"><i></i>中级</dd>-->
+                                </dl>
+                                <em style="display: none">2017人学习</em>
+                                <i></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="page-nav"></div>
+        </div>
+        <div class="left">
+            <div class="sidelist">
+                <div class="hd">
+                    <a href="#">
+                        <i></i>
+                        课程库
+                    </a>
+                </div>
+                <div class="bd">
+                    <ul>
+                        <li><a href="#"><span>移动开发</span><i></i></a>
+                            <div class="list-show">
+                                <dl>
+                                    <dt><a href="#">应用开发</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">游戏开发</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">常用框架</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li><a href="#"><span>前端开发</span><i></i></a>
+                            <div class="list-show">
+                                <dl>
+                                    <dt><a href="#">前端开发</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">游戏开发</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">常用框架</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                </dl>
+                            </div></li>
+                        <li><a href="#"><span>后端开发</span><i></i></a>
+                            <div class="list-show">
+                                <dl>
+                                    <dt><a href="#">后端开发</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">游戏开发</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">常用框架</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                </dl>
+                            </div></li>
+                        <li><a href="#"><span>基础知识</span><i></i></a>
+                            <div class="list-show">
+                                <dl>
+                                    <dt><a href="#">基础知识</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">游戏开发</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">常用框架</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                </dl>
+                            </div></li>
+                        <li><a href="#"><span>云计算&大数据</span><i></i></a>
+                            <div class="list-show">
+                                <dl>
+                                    <dt><a href="#">云计算&大数据</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">游戏开发</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">常用框架</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                </dl>
+                            </div></li>
+                        <li><a href="#"><span>智能硬件&物联网</span><i></i></a>
+                            <div class="list-show">
+                                <dl>
+                                    <dt><a href="#">智能硬件&物联网</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">游戏开发</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">常用框架</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                </dl>
+                            </div></li>
+                        <li><a href="#"><span>数据库</span><i></i></a>
+                            <div class="list-show">
+                                <dl>
+                                    <dt><a href="#">数据库</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">游戏开发</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">常用框架</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                </dl>
+                            </div></li>
+                        <li><a href="#"><sapn>认证考试</sapn><i></i></a>
+                            <div class="list-show">
+                                <dl>
+                                    <dt><a href="#">认证考试</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">游戏开发</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">常用框架</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                </dl>
+                            </div></li>
+                        <li><a href="#"><span>企业IT</span><i></i></a>
+                            <div class="list-show">
+                                <dl>
+                                    <dt><a href="#">企业IT</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">游戏开发</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">常用框架</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                </dl>
+                            </div></li>
+                        <li><a href="#"><span>测试&测试</span><i></i></a>
+                            <div class="list-show">
+                                <dl>
+                                    <dt><a href="#">测试&测试</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">游戏开发</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                    <dt><a href="#">常用框架</a></dt>
+                                    <dd>
+                                        <a href="#">IOS</a>
+                                        <a href="#">Android</a>
+                                    </dd>
+                                </dl>
+                            </div></li>
+                    </ul>
+
+                </div>
+            </div>
+            <ul class="hb_list">
+                <li><i></i><a>职业路径图</a><span>查看全部</span></li>
+                <li><i></i><a>知识体系图</a><span>查看全部</span></li>
+                <li><i></i><a>系列课程</a><span>查看全部</span></li>
+                <li><i></i><a>课程标签</a><span>查看全部</span></li>
+            </ul>
+        </div>
+    </div>
+    <!-- container结束 -->
+    <!--FOOTER-->
+    <div class="footer_wrap">
+        <div class="footer">
+            <div class="footer_top">
+                <div class="footer_top footer_top1">
+                    <img src="img/jk-logo-footer.png" alt="">
+                    <p class="footer_list">极客学院，编程是一种信仰！</p>
+                </div>
+                <div class="footer_top footer_top2">
+                    <p class="footer_p_top">职业学院</p>
+                    <p class="footer_list">
+                        <a href="#">Python Web工程师</a>
+                    </p>
+                    <p class="footer_list">
+                        <a href="#">web前端工程师</a>
+                    </p>
+                    <p class="footer_list">
+                        <a href="#">Go语言工程师</a>
+                    </p>
+                    <p class="footer_list">
+                        <a href="#">iOS工程师</a>
+                    </p>
+                    <p class="footer_list">
+                        <a href="#">微信小程序工程师</a>
+                    </p>
+                </div>
+                <div class="footer_top footer_top3">
+                    <p class="footer_p_top">会员课程</p>
+                    <p class="footer_list">
+                        <a href="#">课程库</a>
+                    </p>
+                    <p class="footer_list">
+                        <a href="#">知识体系图</a>
+                    </p>
+                    <p class="footer_list">
+                        <a href="#">职业路径图</a>
+                    </p>
+                    <p class="footer_list">
+                        <a href="#">系列课程</a>
+                    </p>
+                    <p class="footer_list">
+                        <a href="#">课程标签</a>
+                    </p>
+                </div>
+                <div class="footer_top footer_top4">
+                    <p class="footer_p_top">极客社区</p>
+                    <p class="footer_list">
+                        <a href="#">技术问答</a>
+                    </p>
+                    <p class="footer_list">
+                        <a href="#">WiKi </a>
+                    </p>
+                    <p class="footer_list">
+                        <a href="#">资源下载</a>
+                    </p>
+                    <p class="footer_list">
+                        <a href="#">社群</a>
+                    </p>
+                </div>
+                <div class="footer_top footer_top5">
+                    <p class="footer_p_top">其他</p>
+                    <p class="footer_list">
+                        <a href="#">关于我们</a>
+                    </p>
+                    <p class="footer_list">
+                        <a href="#">加入我们</a>
+                    </p>
+                    <p class="footer_list">
+                        <a href="#">讲师合作</a>
+                    </p>
+                    <p class="footer_list">
+                        <a href="#">联系我们</a>
+                    </p>
+                    <p class="footer_list">
+                        <a href="#">友情链接</a>
+                    </p>
+                </div>
+                <div class="footer_top footer_top6">
+                    <p class="footer_p_top" style="margin-bottom: 20px;">服务热线：400-678-8266</p>
+                    <div class="qr_code_1">
+                        <span class="sys_icon apple_icon"></span> iPhone <img class="down_img" src="img/app.png" alt="下载二维码">
+                    </div>
+                    <div class="qr_code_2">
+                        <span class="sys_icon android_icon"></span> Android <img class="down_img" src="img/app.png" alt="下载二维码">
+                    </div>
+                </div>
+            </div>
+            <div class="footer_btm">
+                <hr style="border:1px solid #F8F8F8">
+                <p>Copyright © 2013-2016 <a href="http://www.jikexueyuan.com/">http://www.jikexueyuan.com</a> All Rights Reserved. 京ICP备11018032号-8 京公网安备11010802020210</p>
+                <a href="#"><span class="weibo"></span></a>
+                <a href="#"><span class="wechat"></span></a>
+                <div class="cert">
+                    <a href="#"><img style="text-align: center" width="60" src="img/cert.png" border="0"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="js/main.js"></script>
+</body>
+
+</html>

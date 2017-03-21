@@ -1,0 +1,143 @@
+.lesson-list{
+    width: 776px;
+}
+.lesson-list ul{
+    margin-top:15px;
+    list-style: none;
+}
+.lesson-list ul li{
+    position: relative;
+    height: 223px;
+    width: 250px;
+    float:left;
+    padding-right: 13px;
+    padding-bottom: 15px;
+    z-index:500;
+}
+.lesson-list ul li:nth-child(3n){
+    padding-right: 0;
+
+}
+.lesson-list ul li .lesson_img_box{
+    position: relative;
+}
+.lesson-list ul li .lesson_img_box a{
+    display: block;
+    width: 250px;
+    height: 135px;
+    background: url("../img/584e070d8c2cb.jpeg");
+    -webkit-background-size:250px 135px;
+    background-size:250px 135px;
+}
+.lesson-list ul li .lesson_img_box>i{
+    width: 16px;
+    height: 16px;
+    display:block;
+    position: absolute;
+    z-index: 999;
+    top: 5px;
+    left: 5px;
+    background: url("../img/shoucang-1_76dc56f.png") no-repeat 0 0;
+    background-size: 16px;
+    opacity: 0;
+}
+.lesson-list ul li:hover .lesson_img_box>i{
+    animation: tp 0.5s ease-in forwards;
+}
+.lesson-list ul li .lesson_img_box>i:hover{
+    background: url("../img/shoucang-3_3111bf6.png") no-repeat 0 0;
+    background-size: 16px;
+}
+
+.lesson-list ul li .lesson_img_box div{
+    position: absolute;
+    width: 250px;
+    height: 135px;
+    top: 0;
+    left:0;
+}
+
+.lesson-list ul li .lesson_img_box div i{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("../img/player_icon_5c67475.png") no-repeat 0 0;
+    background-size: 50px;
+    left: 100px;
+    top: 43px;
+    opacity: 0;
+}
+.lesson-list ul li:hover .lesson_img_box div{
+    background: rgba(0,0,0,.2);
+}
+.lesson-list ul li:hover .lesson_img_box div>i {
+     animation: tp 0.8s ease-in forwards;
+}
+@keyframes tp {
+    0%{
+        opacity: 0;
+    }50%{
+         opacity: 0.6;
+     }100%{
+          opacity: 1;
+      }
+}
+
+/*------------------------------------------------------*/
+
+.lesson-list ul li .lesson_info{
+    width: 250px;
+    height: 88px;
+    background: #ffffff;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;
+}
+.lesson-list ul li .lesson_info h2{
+    font-size: 14px;
+    color: #333;
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.lesson-list ul li .lesson_info h2 a{
+    display: block;
+}
+.cf{
+    position: relative;
+}
+.cf dl dd{
+    font-size: 13px;
+    color: gray;
+    margin-right: 15px;
+    width: 150px;
+    height: 26px;
+}
+.cf dl dd i{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 10px;
+    background: url("../img/icon_7f8b929.png") 0 -72px no-repeat;
+}
+.cf>em{
+font-size: 12px;
+    color: gray;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.cf>i{
+    position: absolute;
+    display: inline-block;
+    background: url("../img/572318c5ac303.png");
+    width: 16px;
+    height: 16px;
+    background-size: 16px;
+    right: 0;
+    top:0;
+
+}

@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+.nav a:hover .arrow_icon{
+    border-color: #35b558;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    animation: rotate 1s ease forwards ;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(315deg);
+    }
+}
+
+
+.nav li:hover .nav_list {
+    animation: opacity 1s ease forwards;
+}
+
+#s_ctrl_wrap:hover .ctrl_icon_l {
+    animation: opacity 1s ease forwards;
+}
+#s_ctrl_wrap:hover .ctrl_icon_r {
+    animation: opacity 1s ease forwards;
+}
+
+
+@keyframes opacity{
+    0%{
+        opacity: 0;
+
+    }
+    100%{
+        opacity: 1;
+    }
+}
